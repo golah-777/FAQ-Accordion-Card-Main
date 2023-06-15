@@ -1,6 +1,8 @@
 @media only screen 
-and (min-width: 320px)
 and (max-width: 375px) {
+  html{
+    height:800px;
+  }
   .images{
     display: none;
   }
@@ -52,7 +54,7 @@ and (max-width: 375px) {
     width: 75%;
     border: none;
     align-items: center;
-    margin-top: 220px;
+    margin-top: 110px;
   }
 
   .inner-section{
