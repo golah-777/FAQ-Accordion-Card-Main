@@ -1,5 +1,114 @@
-@media only screen 
-and (max-width: 375px) {
+@media only screen and (min-width: 320px) and (max-width:374px) {
+  html{
+    height:800px;
+  }
+  .images{
+    display: none;
+  }
+
+  .morbile{
+    display: inline;
+    background-image: url(illustration-woman-online-mobile.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -90px;
+    left: 20px;
+    margin-right: 9px;
+    width: 199px;
+  }
+
+  .morbile-two{
+    display: inline;
+    background-image: url(bg-pattern-mobile.svg);
+    background-repeat: no-repeat;
+    height:110px;
+    position: relative;
+    right: 0%;
+    left: 4.6%;
+    width: 100%;
+    top: -10px;
+    background-size: 90%;
+  }
+
+  body{
+    font-family: 'Kumbh Sans', sans-serif,Arial, Helvetica;
+    background-image:linear-gradient(180deg, #af67e9 0%, #6565e7 100%);
+    height: 100vh;
+    overflow-y:scroll;
+    margin: 0px;
+    padding: 0px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;  */
+  } 
+
+  section{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+    position: relative;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    background-color: white;
+    border-radius: 20px;
+    /* height: 200px; */
+    width: 75%;
+    border: none;
+    align-items: center;
+    margin-top: 110px;
+  }
+
+  .inner-section{
+    display: flex;
+    align-items: center;
+    /* flex: 1; */
+    flex-direction: row;
+    /* justify-content: space-between; */
+    background-color: white;
+    width: 100%;
+    border-radius: 20px;
+    height: 100%;
+    border: none;
+  }
+
+ .FAQ-div{
+   padding: 20px;
+   padding-bottom: 40px;
+   width: 100%;
+  }
+
+  .attribution { 
+    /* font-size: 11px; text-align: center;
+    position: relative;
+    top: 620px; */
+    display: none;
+  }
+  
+  .morbile-attribution{
+    display: inline;
+    font-size: 11px; text-align: center;
+    position: relative;
+    top: 30px;
+  }
+
+  .hidden-mobile-div{
+    display: block;
+    height: 20px;
+    position:static;
+  }
+
+  .morbile-attribution a {
+    color: hsl(228, 45%, 44%); 
+  }
+  h2{
+    text-align: center;
+  }
+ 
+}
+
+@media only screen and (min-width: 375px)and (max-width: 424px) {
   html{
     height:800px;
   }
